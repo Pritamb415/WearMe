@@ -11,20 +11,25 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E9B6AA3C2DBFB24600369100 /* Exceptions for "WearMe" folder in "WearMe" target */ = {
+		E93234692DC09DFD00372684 /* Exceptions for "WearMe" folder in "WearMe" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				SupportingFiles/Info.plist,
 			);
 			target = E9B6AA262DBFB24300369100 /* WearMe */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		E932345D2DC0939800372684 /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E9B6AA292DBFB24300369100 /* WearMe */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				E9B6AA3C2DBFB24600369100 /* Exceptions for "WearMe" folder in "WearMe" target */,
+				E93234692DC09DFD00372684 /* Exceptions for "WearMe" folder in "WearMe" target */,
 			);
 			path = WearMe;
 			sourceTree = "<group>";
@@ -54,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				E9B6AA272DBFB24300369100 /* WearMe.app */,
+				E932345D2DC0939800372684 /* Model */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +80,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				E932345D2DC0939800372684 /* Model */,
 				E9B6AA292DBFB24300369100 /* WearMe */,
 			);
 			name = WearMe;
@@ -146,7 +153,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WearMe/Info.plist;
+				INFOPLIST_FILE = WearMe/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -173,7 +180,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WearMe/Info.plist;
+				INFOPLIST_FILE = WearMe/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
