@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E93234692DC09DFD00372684 /* Exceptions for "WearMe" folder in "WearMe" target */ = {
+		E9A313612DD48868009F4ED1 /* Exceptions for "WearMe" folder in "WearMe" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				SupportingFiles/Info.plist,
@@ -29,7 +29,7 @@
 		E9B6AA292DBFB24300369100 /* WearMe */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				E93234692DC09DFD00372684 /* Exceptions for "WearMe" folder in "WearMe" target */,
+				E9A313612DD48868009F4ED1 /* Exceptions for "WearMe" folder in "WearMe" target */,
 			);
 			path = WearMe;
 			sourceTree = "<group>";

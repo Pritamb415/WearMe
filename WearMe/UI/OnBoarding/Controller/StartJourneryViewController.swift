@@ -8,6 +8,9 @@
 import UIKit
 
 class StartJourneryViewController: UIViewController {
+    
+    weak var navigationDelegate: OnboardingNavigationDelegate?
+
 
     @IBOutlet weak var nextButton: UIButton!
     
@@ -21,7 +24,10 @@ class StartJourneryViewController: UIViewController {
 
         self.nextButton.layer.cornerRadius = 10
     }
-
+    
+    @IBAction func nextButtonTapped (_ Sender : UIButton){
+        navigationDelegate?.goToNextPage(from: self)
+    }
     
 
 }
